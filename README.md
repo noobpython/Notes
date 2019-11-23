@@ -1,5 +1,7 @@
 # Notes
 This is a repository of my notes
+
+#### Here is how you install jupyter nbextensions
 ```
 pip install jupyter_nbextensions_configurator
 
@@ -16,3 +18,6 @@ pip install nodejs
 jupyter contrib nbextension install --user
 
 ```
+
+Look below
+https://towardsdatascience.com/bringing-the-best-out-of-jupyter-notebooks-for-data-science-f0871519ca29
