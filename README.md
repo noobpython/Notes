@@ -36,3 +36,10 @@ from IPython.display import IFrame
 IFrame('https://en.wikipedia.org/wiki/HTTPS', width=800, height=450)
 ```
 ![Embedding URLs](https://miro.medium.com/max/658/1*hKNCLc-0g8HubqRZWdWr5Q.gif)
+
+```
+from IPython.display import IFrame
+IFrame('https://arxiv.org/pdf/1406.2661.pdf', width=800, height=450)
+```
+![Embedding PDFs](https://miro.medium.com/max/641/1*Trjh8qyP9i0o4Z1LJYp8mg.png)
+
