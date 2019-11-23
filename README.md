@@ -19,5 +19,5 @@ jupyter contrib nbextension install --user
 
 ```
 
-Look below
+Read below for more useful tools for data-science
 https://towardsdatascience.com/bringing-the-best-out-of-jupyter-notebooks-for-data-science-f0871519ca29
