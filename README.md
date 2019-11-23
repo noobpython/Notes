@@ -43,3 +43,6 @@ IFrame('https://arxiv.org/pdf/1406.2661.pdf', width=800, height=450)
 ```
 ![Embedding PDFs](https://miro.medium.com/max/641/1*Trjh8qyP9i0o4Z1LJYp8mg.png)
 
+### Cython
+```pip install cython```
+![](https://miro.medium.com/max/2483/1*fZS2AARQeqPRyXWEM8DXhg.png)
