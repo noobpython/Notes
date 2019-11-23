@@ -46,3 +46,8 @@ IFrame('https://arxiv.org/pdf/1406.2661.pdf', width=800, height=450)
 ### Cython
 ```pip install cython```
 ![](https://miro.medium.com/max/2483/1*fZS2AARQeqPRyXWEM8DXhg.png)
+
+
+#### How to create a requirements.txt from your current environment
+``` pip freeze > requirements.txt ```
+You will then find the requirements.txt file in your current working directory
