@@ -58,3 +58,4 @@ Then install:
 Ignore errors when installing packages via requirements.txt
 ``` FOR /F %p IN (requirements.txt) DO pip install %p ```
 
+https://stackoverflow.com/questions/6457794/pip-install-r-continue-past-installs-that-fail
