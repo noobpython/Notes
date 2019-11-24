@@ -53,4 +53,6 @@ IFrame('https://arxiv.org/pdf/1406.2661.pdf', width=800, height=450)
 You will then find the requirements.txt file in your current working directory
 Then install:
 ```pip install -r requirements.txt```
+Ignore errors when installing packages via requirements.txt
+``` FOR /F %p IN (requirements.txt) DO pip install %p ```
 
