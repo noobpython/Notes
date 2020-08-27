@@ -61,6 +61,13 @@ Ignore errors when installing packages via requirements.txt
 https://stackoverflow.com/questions/6457794/pip-install-r-continue-past-installs-that-fail
 
 
+For Conda install, you can use
+```$ FOR /F "delims=~" %f in (requirements.txt) DO conda install --yes "%f" || pip install "%f"```
+
+https://stackoverflow.com/questions/35802939/install-only-available-packages-using-conda-install-yes-file-requirements-t
+
+
+
 Exporting Jupyter notebook in HTML 
 
 1.	Run Jupyter notebook and download the notebook in the browser: File->Download as->HTML and you will get a html page with code and output.
